@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test Page</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <script>
+    // (A) FORM DATA - JWT
+    let data = new FormData();
+    data.append("jwt", localStorage.getItem("jwt"));
+    data.append("key", "value");
+
+    // (B) ATTACH JWT IN FETCH CALL
+    fetch("5e-api.php", { method:"POST", body:data })
+    .then(res => res.text())
+    .then(txt => console.log(txt))
+    .catch(err => console.error(err));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+/* NOT IMPORTANT - CSS COSMETICS */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 500px;
+  padding: 15px;
+  margin: 0 auto;
+}
+div.note {
+  padding: 10px;
+  margin-bottom: 15px;
+  background: #ffecec;
+}
+form {
+  padding: 20px;
+  border: 1px solid #eee;
+  background: #f7f7f7;
+}
+form h1 { margin: 0 0 20px 0; }
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+input[type=email], input[type=password] {
+  margin-bottom: 10px;
+  border: 1px solid #cdcdcd;
+}
+input[type=submit] {
+  margin-top: 20px;
+  border: 0;
+  color: #fff;
+  background: #ac1616;
+  cursor: pointer;
+}

@@ -1,0 +1,4 @@
+* Download & install Composer - https://getcomposer.org/
+* Open command line, navigate to project folder
+* Run "composer require firebase/php-jwt"
+* Composer will automatically download php-jwt into vendor/ folder
